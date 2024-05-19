@@ -1,0 +1,566 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Login with Valid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2048275874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the saucedemo website",
+            "match": {
+              "location": "src/test/steps/login.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 682783416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"standard_user\"",
+            "match": {
+              "location": "src/test/steps/login.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37481457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"Valid Password\"",
+            "match": {
+              "location": "src/test/steps/login.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50161750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/login.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2093598874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Login should be success",
+            "match": {
+              "location": "src/test/steps/login.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60207250
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 131160416
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Login with Valid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 688829582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the saucedemo website",
+            "match": {
+              "location": "src/test/steps/login.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 575486167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"locked_out_user\"",
+            "match": {
+              "location": "src/test/steps/login.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29882999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"Valid Password\"",
+            "match": {
+              "location": "src/test/steps/login.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46525125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/login.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2058262917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Login should be success",
+            "match": {
+              "location": "src/test/steps/login.ts:30"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2239999,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"https://www.saucedemo.com/\u001b[7minventory.html\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://www.saucedemo.com/\"\u001b[39m\n    at Proxy.<anonymous> (/Users/dad/Desktop/BDD_PW/node_modules/playwright/lib/matchers/expect.js:177:37)\n    at World.<anonymous> (/Users/dad/Desktop/BDD_PW/src/test/steps/login.ts:36:18)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 115750292
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Login with Valid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 667424624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the saucedemo website",
+            "match": {
+              "location": "src/test/steps/login.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 543336667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"problem_user\"",
+            "match": {
+              "location": "src/test/steps/login.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27486166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"Valid Password\"",
+            "match": {
+              "location": "src/test/steps/login.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46770833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/login.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2064401208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Login should be success",
+            "match": {
+              "location": "src/test/steps/login.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56124750
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 101121999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Login with Valid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 493372750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the saucedemo website",
+            "match": {
+              "location": "src/test/steps/login.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 579892334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"performance_glitch_user\"",
+            "match": {
+              "location": "src/test/steps/login.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26014667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"Valid Password\"",
+            "match": {
+              "location": "src/test/steps/login.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46966042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/login.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7063522582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Login should be success",
+            "match": {
+              "location": "src/test/steps/login.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59358625
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 116532041
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Login with Valid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 704916083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the saucedemo website",
+            "match": {
+              "location": "src/test/steps/login.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 444632000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"error_user\"",
+            "match": {
+              "location": "src/test/steps/login.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37180082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"Valid Password\"",
+            "match": {
+              "location": "src/test/steps/login.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41965749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/login.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2057942167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Login should be success",
+            "match": {
+              "location": "src/test/steps/login.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29121958
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 101856458
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Login with Valid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 693856041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the saucedemo website",
+            "match": {
+              "location": "src/test/steps/login.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 492643333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"visual_user\"",
+            "match": {
+              "location": "src/test/steps/login.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23884583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"Valid Password\"",
+            "match": {
+              "location": "src/test/steps/login.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42786124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/login.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2049802458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Login should be success",
+            "match": {
+              "location": "src/test/steps/login.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56046291
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 99473750
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "tags": [],
+    "uri": "src/test/features/login.feature"
+  }
+]

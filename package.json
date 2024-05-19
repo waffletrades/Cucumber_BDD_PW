@@ -1,0 +1,21 @@
+{
+  "name": "bdd_pw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test",
+    "test:parallel": "cucumber-js --parallel=2",
+    "openReport": "open reports/report.html"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.7.0",
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2"
+  }
+}
